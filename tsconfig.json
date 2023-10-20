@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2016",
+    "pretty": true,                             
+    "module": "commonjs",                               
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "typeRoots": ["src/types", "node_modules/@types"]
+
+  },
+  "include": ["src/**/*.ts", "global.d.ts"],
+  "exclude": ["node_modules"]
+}
